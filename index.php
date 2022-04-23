@@ -1,8 +1,11 @@
 <?php
-   $numer_1 = 8;
-   $numero_2 = 100;
-    define('NUMERO_PI', '3.14');
-    
+//  $numerito = "1";
+//  $numerito2 = $numerito+2;
+//  var_dump($numerito2);
+//  var_dump($numerito);
 
-   echo NUMERO_PI
+// sea de tipo float, strig,intero, es capaz de converirlo
+$papas = "10 papas en el costal";
+$cuantas_papas_ahy = $papas + 5;
+echo($cuantas_papas_ahy)
 ?>
