@@ -1,8 +1,6 @@
 <?php
-echo "Ingresa tu nombre: ";
-fscanf(STDIN, "%s", $nombre);
-echo "Hola, $nombre";
-//la ruta es  
-echo "C:/MAMP/htdocs";
+$banderita = 0;
+$banderita = (bool) $banderita;
+var_dump($banderita);
 ?>
 
