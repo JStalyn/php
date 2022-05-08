@@ -1,13 +1,24 @@
-p   {
-    color: blue;
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left:0  ;
+    background-color: rgb(23, 26, 26);
     font-size: 30px;
 }
 
-/* clase  */
-
-.parrafo2{
-    color: red;
+.main_nav_item{
+    display: inline-block;
 }
-#texto{
-    color: yellow;
+
+.main_nav_item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main_nav_item a:hover{
+    color: brown;
+}
+.main_nav_item a::after{
+    content: " +";
 }
